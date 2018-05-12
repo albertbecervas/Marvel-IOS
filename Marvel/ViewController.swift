@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Alamofire
+import AlamofireImage
+import CommonCrypto
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
