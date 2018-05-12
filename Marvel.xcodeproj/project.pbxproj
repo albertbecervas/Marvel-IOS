@@ -8,20 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		50535FC120A7053B0060C13E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50535FC020A7053B0060C13E /* AppDelegate.swift */; };
-		50535FC320A7053B0060C13E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50535FC220A7053B0060C13E /* ViewController.swift */; };
 		50535FC620A7053B0060C13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50535FC420A7053B0060C13E /* Main.storyboard */; };
 		50535FC820A7053C0060C13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50535FC720A7053C0060C13E /* Assets.xcassets */; };
 		50535FCB20A7053C0060C13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50535FC920A7053C0060C13E /* LaunchScreen.storyboard */; };
+		50535FE320A70E160060C13E /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50535FDF20A70E160060C13E /* AlamofireImage.framework */; };
+		50535FE420A70E160060C13E /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50535FDF20A70E160060C13E /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50535FE520A70E160060C13E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50535FE020A70E160060C13E /* SwiftyJSON.framework */; };
+		50535FE620A70E160060C13E /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50535FE020A70E160060C13E /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50535FE720A70E170060C13E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50535FE120A70E160060C13E /* Alamofire.framework */; };
+		50535FE820A70E170060C13E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50535FE120A70E160060C13E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50535FE920A70E170060C13E /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50535FE220A70E160060C13E /* CommonCrypto.framework */; };
+		50535FEA20A70E170060C13E /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50535FE220A70E160060C13E /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50535FEC20A70FA60060C13E /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50535FEB20A70FA60060C13E /* HeroesTableViewController.swift */; };
+		50535FEE20A710260060C13E /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50535FED20A710260060C13E /* Hero.swift */; };
+		50535FF120A7563B0060C13E /* HeroesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50535FF020A7563B0060C13E /* HeroesTableViewCell.swift */; };
+		50535FF520A756910060C13E /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50535FF420A756910060C13E /* ApiManager.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50535FDE20A70DA60060C13E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				50535FEA20A70E170060C13E /* CommonCrypto.framework in Embed Frameworks */,
+				50535FE620A70E160060C13E /* SwiftyJSON.framework in Embed Frameworks */,
+				50535FE820A70E170060C13E /* Alamofire.framework in Embed Frameworks */,
+				50535FE420A70E160060C13E /* AlamofireImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		50535FBD20A7053B0060C13E /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50535FC020A7053B0060C13E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50535FC220A7053B0060C13E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50535FC520A7053B0060C13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50535FC720A7053C0060C13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50535FCA20A7053C0060C13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50535FCC20A7053C0060C13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50535FDF20A70E160060C13E /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		50535FE020A70E160060C13E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		50535FE120A70E160060C13E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		50535FE220A70E160060C13E /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/iOS/CommonCrypto.framework; sourceTree = "<group>"; };
+		50535FEB20A70FA60060C13E /* HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewController.swift; sourceTree = "<group>"; };
+		50535FED20A710260060C13E /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		50535FF020A7563B0060C13E /* HeroesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewCell.swift; sourceTree = "<group>"; };
+		50535FF420A756910060C13E /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50535FE920A70E170060C13E /* CommonCrypto.framework in Frameworks */,
+				50535FE520A70E160060C13E /* SwiftyJSON.framework in Frameworks */,
+				50535FE720A70E170060C13E /* Alamofire.framework in Frameworks */,
+				50535FE320A70E160060C13E /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +77,13 @@
 		50535FB420A7053A0060C13E = {
 			isa = PBXGroup;
 			children = (
+				50535FE120A70E160060C13E /* Alamofire.framework */,
+				50535FDF20A70E160060C13E /* AlamofireImage.framework */,
+				50535FE220A70E160060C13E /* CommonCrypto.framework */,
+				50535FE020A70E160060C13E /* SwiftyJSON.framework */,
 				50535FBF20A7053B0060C13E /* Marvel */,
 				50535FBE20A7053B0060C13E /* Products */,
+				50535FD220A70C930060C13E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +99,39 @@
 			isa = PBXGroup;
 			children = (
 				50535FC020A7053B0060C13E /* AppDelegate.swift */,
-				50535FC220A7053B0060C13E /* ViewController.swift */,
 				50535FC420A7053B0060C13E /* Main.storyboard */,
 				50535FC720A7053C0060C13E /* Assets.xcassets */,
 				50535FC920A7053C0060C13E /* LaunchScreen.storyboard */,
 				50535FCC20A7053C0060C13E /* Info.plist */,
+				50535FEB20A70FA60060C13E /* HeroesTableViewController.swift */,
+				50535FF420A756910060C13E /* ApiManager.swift */,
+				50535FF320A7565E0060C13E /* cells */,
+				50535FEF20A756090060C13E /* model */,
 			);
 			path = Marvel;
+			sourceTree = "<group>";
+		};
+		50535FD220A70C930060C13E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50535FEF20A756090060C13E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50535FED20A710260060C13E /* Hero.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		50535FF320A7565E0060C13E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				50535FF020A7563B0060C13E /* HeroesTableViewCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +144,7 @@
 				50535FB920A7053B0060C13E /* Sources */,
 				50535FBA20A7053B0060C13E /* Frameworks */,
 				50535FBB20A7053B0060C13E /* Resources */,
+				50535FDE20A70DA60060C13E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,8 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50535FC320A7053B0060C13E /* ViewController.swift in Sources */,
 				50535FC120A7053B0060C13E /* AppDelegate.swift in Sources */,
+				50535FF120A7563B0060C13E /* HeroesTableViewCell.swift in Sources */,
+				50535FF520A756910060C13E /* ApiManager.swift in Sources */,
+				50535FEC20A70FA60060C13E /* HeroesTableViewController.swift in Sources */,
+				50535FEE20A710260060C13E /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +356,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SCSYKT629J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Marvel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +378,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SCSYKT629J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Marvel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
